@@ -1,0 +1,37 @@
+body{
+    background-color:#4D5061;
+    font-family: "Lucida Console"
+}
+
+h1{
+    color:#E7E247;
+    font-size:80px;
+    margin-bottom:5px;
+}
+
+h2{
+    color:#E49273;
+    font-size:60px;
+}
+
+h3{
+    color:#5DC0BF;
+    font-size:40px;
+}
+
+p{
+    color:#EDF6F9;
+    font-size:20px;
+}
+
+a{
+    color:#ff8fa3;
+    font-size:25px;
+}
+
+hr {
+    border: 10px solid #3D3B30;
+    border-radius: 5px;
+    margin-left:0px;
+    width:35%;
+}
