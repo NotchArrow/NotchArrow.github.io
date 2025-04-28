@@ -7,11 +7,13 @@ h1{
     color:#E7E247;
     font-size:80px;
     margin-bottom:5px;
+    text-align:center;
 }
 
 h2{
     color:#E49273;
     font-size:60px;
+    text-align:center;
 }
 
 h3{
@@ -30,6 +32,12 @@ a{
 }
 
 hr {
-    border: 10px solid #3D3B30;
-    border-radius: 5px;
+    /*   border: 10px solid #3D3B30;   */
+    border: 10px solid transparent; 
+    border-image: linear-gradient(to right, orange, yellow); 
+    border-image-slice: 1;
 }
+
+/*
+https://coolors.co/e7e247-3d3b30-4d5061-5dc0bf-e49273
+*/
