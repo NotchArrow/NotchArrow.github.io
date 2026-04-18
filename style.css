@@ -15,6 +15,9 @@ article img {
 #download-badge {
     width: 20%;
     height: 50%;
+    border-radius: var(--pico-border-radius);
+    max-width: 150px;
+    display: inline-block;
 }
 
 h1 {
@@ -49,6 +52,9 @@ video {
     display: flex;
     flex-direction: column;
     height: 100%;
+    border-color: var(--pico-primary);
+    border-radius: 10px;
+    border-style: solid solid var(--pico-primary);
 }
 
 .project-card footer {
@@ -77,4 +83,11 @@ nav {
 
 html {
     scroll-behavior: smooth;
+}
+
+img, video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
