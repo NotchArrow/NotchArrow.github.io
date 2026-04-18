@@ -13,7 +13,7 @@
           href="style.css">
     <link rel="icon"
           type="image/x-icon"
-          href="assets/Avatar.png">
+          href="assets/CircleAvatar.png">
 </head>
 <body>
 
@@ -22,14 +22,18 @@
         <li>
             <a href="#top"
                style="text-decoration: none; color: inherit;">
+                <img id="avatar"
+                     alt="Avatar"
+                     src="assets/CircleAvatar.png">
                 <strong>NotchArrow</strong>
             </a>
         </li>
     </ul>
     <ul>
-        <li><a href="https://modrinth.com/user/NotchArrow">Modrinth</a></li>
-        <li><a href="mailto:NotchArrow@outlook.com">NotchArrow@outlook.com</a></li>
-        <li><a href="https://discord.gg/ZCaGkZeb4C">Discord</a></li>
+        <li class="nav-desktop-only"><a href="#about-section">About</a></li>
+        <li class="nav-desktop-only"><a href="#project-section">Projects</a></li>
+        <li class="nav-desktop-only"><a href="#learning-section">Roadmap</a></li>
+        <li class="nav-desktop-only"><a href="#hobbies-section">Hardware</a></li>
         <li><a href="https://github.com/NotchArrow"
                class="outline"
                role="button">GitHub</a></li>
@@ -38,21 +42,21 @@
 
 <main class="container">
 
-    <section>
+    <section id="top">
         <h1><u>NotchArrow</u></h1>
-        <p><i>High school junior focused on Low-Level Computer Architecture and High-Level Software Systems.</i></p>
+        <p><i>High school junior focused on Low-Level Computer Architecture and High-Level Software.</i></p>
     </section>
 
-    <section>
+    <section id="about-section">
         <h2>About Me</h2>
         <p>I am a high school junior with interests in all levels of abstraction in computer science. I
             have experience in Python, Java, and C++. Specifically, I work in Minecraft modding, computer architecture,
             machine learning, game development, and Python automation. Along with my other open-source contributions, my
-            Minecraft mods have over 30,000 cumulative downloads for their contribution to the community. Feel free to
+            Minecraft mods have over <b>30,000</b> cumulative downloads for their contribution to the community. Feel free to
             contact me!</p>
     </section>
 
-    <section>
+    <section id="project-section">
         <h2>Projects</h2>
 
         <div id="project-grid"
@@ -62,12 +66,15 @@
                 <h3>Artificial Neural Network Research Project</h3>
                 <p>
                     Developed AI models for image recognition and categorized thousands of images into 30
-                    classifications. I measured the accuracy and efficiency of each model to find the model parameters
-                    with the highest performance.
+                    classifications. The program measured the efficiency and accuracy of each model to find the
+                    model parameters with the highest performance. Example CIFAR10 classifications are shown below.
                 </p>
+                <img id=cifar10
+                     alt="CIFAR10 Classifications"
+                     src="assets/CIFAR10.png">
                 <small>PyTorch • MNIST • Fashion-MNIST • CIFAR-10 • Artificial Neural Networks</small>
                 <footer>
-                    <a href="https://github.com/NotchArrow/ANN-Research-Project">GitHub</a>
+                    <a href="https://github.com/NotchArrow/ANN-Research-Project">GitHub + Abstract & Poster</a>
                 </footer>
             </article>
 
@@ -78,6 +85,9 @@
                     anvil limitations. The mod allows users to customize their game with a variety of settings and
                     create their ideal experience.
                 </p>
+                <img id=enchantments-unbound
+                     alt="Enchantments Unbound Mod Icon"
+                     src="assets/EnchantmentsUnbound.png">
                 <small>Fabric API • Java • Minecraft Modding • Cloth Config API</small>
                 <footer>
                     <a href="https://github.com/NotchArrow/EnchantmentsUnbound">GitHub</a>
@@ -89,14 +99,15 @@
             </article>
 
             <article class="project-card">
-                <h3>Arduino and Breadboard Circuits</h3>
+                <h3>Arduino Logic Circuits</h3>
                 <p>
                     Designed electrical circuits using breadboards and Arduino microcontrollers. Created a clock, a
                     Simon-inspired sequence memory game, and a programmable piano.
                 </p>
                 <video controls
                        playsinline
-                       id="arduino-video">
+                       id="arduino-video"
+                       poster="assets/FallenDownArduinoPianoThumbnail.jpg">
                     <source src="assets/FallenDownArduinoPiano.mp4"
                             type="video/mp4">
                     Your browser does not support the video tag.
@@ -130,7 +141,8 @@
                     stores the music as local PDF files.
                 </p>
                 <video controls
-                       playsinline>
+                       playsinline
+                       poster="assets/MusicArchiveWebscraperThumbnail.jpg">
                     <source src="assets/MusicArchiveWebscraper.mp4"
                             type="video/mp4">
                     Your browser does not support the video tag.
@@ -144,7 +156,131 @@
         </div>
     </section>
 
+    <section id="learning-section">
+        <h2>Curated Learning Roadmap</h2>
+        <p>
+            This section is dedicated to amazing learning resources. I personally recommend everything here to anyone
+            who is interested in similar computer science topics and bridging the gap between low-level and high-level
+            abstraction.
+        </p>
+        <div id="resources-grid">
+            <div>
+                <a href="https://www.3blue1brown.com/?topic=neural-networks">3Blue1Brown</a>
+                <p><small>
+                    Also known as Grant Sanderson, 3Blue1Brown is an educator with videos covering important computer
+                    science topics, such as Artificial Neural Networks and important mathematical concepts.
+                </small></p>
+            </div>
+            <div>
+                <a href="https://eater.net/8bit">Ben Eater</a>
+                <p><small>
+                    An educational YouTube lecturer with exceptional videos on 8 bit circuits, microcontrollers, and
+                    software interfacing. The
+                    <a href="https://docs.arduino.cc/">Arduino Docs</a>
+                    are also very useful for creating projects.
+                </small></p>
+            </div>
+            <div>
+                <a href="https://pages.hmc.edu/harris/ddca/">[$] Digital Design & Computer Architecture</a>
+                <p><small>
+                    An undergraduate level textbook covering computer architecture from basic transistors and logic all
+                    the way to full CPU designs.
+                </small></p>
+            </div>
+            <div>
+                <a href="https://fabricmc.net/develop/">Fabric API Documentation</a>
+                <p><small>
+                    Documentation for the Fabric API for Minecraft modding. The community groups often help with general
+                    programming or Java.
+                </small></p>
+            </div>
+            <div>
+                <a href="https://docs.pytorch.org/docs/stable/index.html">PyTorch Documentation</a>
+                <p><small>
+                    User guides and documentation for PyTorch and machine learning. The guides are a great transition
+                    point for transforming AI theory and mathematical concepts into code.
+                </small></p>
+            </div>
+            <div>
+                <a href="https://think-like-a-git.net/">Think Like a Git</a>
+                <p><small>
+                    A relatively short read that provides background information about Git. It explains how and why the
+                    Version Control System has certain design choices, rather than giving a list of commands to
+                    memorize.
+                </small></p>
+            </div>
+            <div>
+                <a href="https://store.steampowered.com/app/1444480/Turing_Complete/">[$] Turing Complete</a>
+                <p><small>
+                    An educational sandbox game that provides level progression through computer architecture. The
+                    levels of abstraction from NAND gates to Assembly language and CPU optimization are well explained.
+                    Free alternative sandbox:
+                    <a href="https://sebastian.itch.io/digital-logic-sim">Sebastian Lague Digital Logic Simulator</a>
+                </small></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="hobbies-section">
+        <h2>Hardware & Prototyping</h2>
+        <div class="grid">
+            <div id="inventor-div">
+                <h6>Mechanical Design</h6>
+                <p><small>NOCTI Certified in CAD. Currently using Autodesk Inventor for modeling and 3D printing custom
+                    components.</small></p>
+                <img class="rounded" alt="Arduino Case" src="assets/ArduinoCase.jpg">
+                <img class="rounded" alt="Arduino Case Model" src="assets/ArduinoCaseModel.png">
+                <img class="rounded" alt="Arduino Case Back" src="assets/ArduinoCaseBack.jpg">
+            </div>
+            <div id="raspberry-div">
+                <h6>Raspberry Pi & Linux</h6>
+                <p><small>Some experience with Raspberry Pi systems and Linux-based SSH environments for server
+                    hosting.</small></p>
+                <img class="rounded" alt="Raspberry Pi SSH" src="assets/RaspberryPi.png">
+            </div>
+            <div id="laptop-div">
+                <h6>Hardware Engineering</h6>
+                <p><small>Working with laptops and desktop PCs to build new setups, perform repairs and upgrades, and
+                    repurpose discrete components for electrical projects.</small></p>
+                <img class="rounded" alt="Laptop Repasting" src="assets/LaptopRepasting.jpg">
+            </div>
+        </div>
+    </section>
+
 </main>
+
+<footer class="container" id="contact-section">
+    <hr />
+    <div class="grid">
+        <div>
+            <p><strong>NotchArrow</strong><br />
+                <small>Interest in my work? Let's connect or collaborate on something new.</small></p>
+        </div>
+        <div>
+            <h6>Site Navigation</h6>
+            <ul>
+                <li><a href="#top">Top</a></li>
+                <li><a href="#about-section">About</a></li>
+                <li><a href="#project-section">Projects</a></li>
+                <li><a href="#learning-section">Roadmap</a></li>
+                <li><a href="#hobbies-section">Hardware</a></li>
+            </ul>
+        </div>
+        <div>
+            <h6>Connect</h6>
+            <ul class="no-bullets">
+                <li><a href="https://discord.gg/ZCaGkZeb4C">Discord</a></li>
+                <li><a href="mailto:NotchArrow@outlook.com">NotchArrow@outlook.com</a></li>
+                <li><a href="https://github.com/NotchArrow">GitHub</a></li>
+                <li><a href="https://modrinth.com/user/NotchArrow/">Modrinth</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <p id="footer-mark">
+        <small>Built with <strong>Pico.css</strong> • Hosted on <strong>GitHub Pages</strong></small>
+    </p>
+</footer>
 
 </body>
 </html>
