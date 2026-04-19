@@ -52,7 +52,8 @@
         <p>I am a high school junior with interests in all levels of abstraction in computer science. I
             have experience in Python, Java, and C++. Specifically, I work in Minecraft modding, computer architecture,
             machine learning, game development, and Python automation. Along with my other open-source contributions, my
-            Minecraft mods have over <b>30,000</b> cumulative downloads for their contribution to the community. Feel free to
+            Minecraft mods have over <b>30,000</b> cumulative downloads for their contribution to the community. Feel
+            free to
             contact me!</p>
     </section>
 
@@ -153,8 +154,35 @@
                 </footer>
             </article>
 
+            <article class="project-card">
+                <h3>Turing Complete Computer Architecture</h3>
+                <p>
+                    Designed a custom instruction set architecture and a full turing-complete CPU in a sandbox. Created
+                    the design starting from NAND gates and built discrete components to combine into the full
+                    architecture.
+                </p>
+                <div class="grid"
+                     style="padding-bottom: 1rem;">
+                    <img id=turing-image
+                         alt="Turing Complete CPU Design"
+                         src="assets/FullTuring.png">
+                    <p>
+                        The program counter is visible in the top left next to the ROM. The 32-bit instruction is
+                        processed through the decoder. The opcode, argument 1, argument 2, and output values are sent
+                        onto the vertical wire buses. These signals fetch arguments onto the data bus, process them in
+                        the ALU or conditional processor, and write outputs to the appropriate locations.
+                    </p>
+                </div>
+                <small>Turing Complete • Custom ISA • Computer Architecture • Sandbox</small>
+                <footer>
+                    A larger section dedicated to these designs is coming soon!
+                </footer>
+            </article>
+
         </div>
     </section>
+
+    <hr>
 
     <section id="learning-section">
         <h2>Curated Learning Roadmap</h2>
@@ -228,35 +256,58 @@
                 <h6>Mechanical Design</h6>
                 <p><small>NOCTI Certified in CAD. Currently using Autodesk Inventor for modeling and 3D printing custom
                     components.</small></p>
-                <img class="rounded" alt="Arduino Case" src="assets/ArduinoCase.jpg">
-                <img class="rounded" alt="Arduino Case Model" src="assets/ArduinoCaseModel.png">
-                <img class="rounded" alt="Arduino Case Back" src="assets/ArduinoCaseBack.jpg">
-                <small><p>Custom Arduino case with an Omori logo modeled into the back.</p></small>
+                <figure>
+                    <img class="rounded"
+                         alt="Arduino Case"
+                         src="assets/ArduinoCase.jpg">
+                    <img class="rounded"
+                         alt="Arduino Case Model"
+                         src="assets/ArduinoCaseModel.png">
+                    <img class="rounded"
+                         alt="Arduino Case Back"
+                         src="assets/ArduinoCaseBack.jpg">
+                    <figcaption>
+                        <small>Custom Arduino case with an Omori logo modeled into the back.</small>
+                    </figcaption>
+                </figure>
             </div>
             <div id="raspberry-div">
                 <h6>Raspberry Pi & Linux</h6>
                 <p><small>Some experience with Raspberry Pi systems and Linux-based SSH environments for server
                     hosting.</small></p>
-                <img class="rounded" alt="Raspberry Pi SSH" src="assets/RaspberryPi.png">
-                <small><p>Neofetch system information through Raspberry Pi SSH.</p></small>
+                <figure>
+                    <img class="rounded"
+                         alt="Raspberry Pi SSH"
+                         src="assets/RaspberryPi.png">
+                    <figcaption>
+                        <small>Neofetch system information through Raspberry Pi SSH.</small>
+                    </figcaption>
+                </figure>
             </div>
             <div id="laptop-div">
                 <h6>Hardware Engineering</h6>
                 <p><small>Working with laptops and desktop PCs to build new setups, perform repairs and upgrades, and
                     repurpose discrete components for electrical projects.</small></p>
-                <img class="rounded" alt="Laptop Repasting" src="assets/LaptopRepasting.jpg">
-                <small><p>Dell Laptop cleaned and prepared for new thermal paste on the CPU and GPU.</p></small>
+                <figure>
+                    <img class="rounded"
+                         alt="Laptop Repasting"
+                         src="assets/LaptopRepasting.jpg">
+                    <figcaption>
+                        <small>Dell Laptop cleaned and prepared for new thermal paste on the CPU and GPU.</small>
+                    </figcaption>
+                </figure>
             </div>
         </div>
     </section>
 
 </main>
 
-<footer class="container" id="contact-section">
-    <hr />
+<footer class="container"
+        id="contact-section">
+    <hr/>
     <div class="grid">
         <div>
-            <p><strong>NotchArrow</strong><br />
+            <p><strong>NotchArrow</strong><br/>
                 <small>Interest in my work? Let's connect or collaborate on something new.</small></p>
         </div>
         <div>

@@ -187,3 +187,15 @@ section {
 .rounded {
     border-radius: var(--pico-border-radius);
 }
+
+figcaption {
+    text-align: center;
+}
+
+#hobbies-section {
+    div div {
+        outline: 3px solid var(--pico-muted-border-color);
+        border-radius: 1rem;
+        padding: 0.5rem;
+    }
+}
