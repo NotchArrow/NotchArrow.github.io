@@ -30,5 +30,4 @@ async function updateCounter() {
 }
 
 updateCounter();
-
-setInterval(updateCounter, 60000);
+// swap to GitHub Actions and backend cache
