@@ -1,356 +1,333 @@
 <!DOCTYPE html>
-<html lang="en"
-      data-theme="dark">
+<html lang="en" data-theme="dark">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NotchArrow</title>
 
-    <meta property="og:title"
-          content="NotchArrow"/>
+    <meta property="og:title" content="NotchArrow" />
     <meta property="og:description"
-          content="High school senior focused on Low-Level Computer Architecture and High-Level Software."/>
-    <meta property="og:type"
-          content="website"/>
-    <meta property="og:url"
-          content="https://notcharrow.github.io/"/>
-    <meta property="og:image"
-          content="https://notcharrow.github.io/assets/CircleAvatar.png"/>
-    <meta name="twitter:card"
-          content="summary_large_image">
-    <meta name="theme-color"
-          content="#f56b3d">
+        content="High school senior focused on Low-Level Computer Architecture and High-Level Software." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://notcharrow.github.io/" />
+    <meta property="og:image" content="https://notcharrow.github.io/assets/CircleAvatar.png" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="theme-color" content="#f56b3d">
 
     <meta name="google-site-verification" content="LQBCFti23JOmjX7W8MfKu5xP0zPAk9iYi_sFPLjjPb4" />
 
-    <link rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.orange.min.css">
-    <link rel="stylesheet"
-          href="style.css">
-    <link rel="icon"
-          type="image/x-icon"
-          href="assets/CircleAvatar.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.orange.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="assets/CircleAvatar.png">
 </head>
+
 <body>
 
-<nav class="container">
-    <ul>
-        <li>
-            <a href="#top"
-               style="text-decoration: none; color: inherit;">
-                <img id="avatar"
-                     alt="Avatar"
-                     src="assets/CircleAvatar.png">
-                <strong>NotchArrow</strong>
-            </a>
-        </li>
-    </ul>
-    <ul>
-        <li class="nav-desktop-only"><a href="#about-section">About</a></li>
-        <li class="nav-desktop-only"><a href="#project-section">Projects</a></li>
-        <li class="nav-desktop-only"><a href="#learning-section">Roadmap</a></li>
-        <li class="nav-desktop-only"><a href="#hobbies-section">Hardware</a></li>
-        <li><a href="https://github.com/NotchArrow"
-               class="outline"
-               role="button">GitHub</a></li>
-    </ul>
-</nav>
+    <nav class="container">
+        <ul>
+            <li>
+                <a href="#top" style="text-decoration: none; color: inherit;">
+                    <img id="avatar" alt="Avatar" src="assets/CircleAvatar.png">
+                    <strong>NotchArrow</strong>
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li class="nav-desktop-only"><a href="#about-section">About</a></li>
+            <li class="nav-desktop-only"><a href="#project-section">Projects</a></li>
+            <li class="nav-desktop-only"><a href="#learning-section">Roadmap</a></li>
+            <li class="nav-desktop-only"><a href="#hobbies-section">Hardware</a></li>
+            <li><a href="https://github.com/NotchArrow" class="outline" role="button">GitHub</a></li>
+        </ul>
+    </nav>
 
-<main class="container">
+    <main class="container">
 
-    <section id="top">
-        <h1><u>NotchArrow</u></h1>
-        <p><i>High school senior focused on Low-Level Computer Architecture and High-Level Software.</i></p>
-    </section>
+        <section id="top">
+            <h1><u>NotchArrow</u></h1>
+            <p><i>High school senior focused on Low-Level Computer Architecture and High-Level Software.</i></p>
+        </section>
 
-    <section id="about-section">
-        <h2>About Me</h2>
-        <p>I am a high school senior with interests in all levels of abstraction in computer science. I
-            have experience in Python, Java, and C++. Specifically, I work in Minecraft modding, computer architecture,
-            machine learning, game development, and Python automation. Along with my other open-source contributions, my
-            Minecraft mods have over <b id="counter">50,000</b> cumulative downloads for their contribution to the community. Feel
-            free to
-            contact me!</p>
-    </section>
+        <section id="about-section">
+            <h2>About Me</h2>
+            <p>I am a high school senior with interests in all levels of abstraction in computer science. I
+                have experience in Python, Java, and C++. Specifically, I work in Minecraft modding, computer
+                architecture,
+                machine learning, game development, and Python automation. Along with my other open-source
+                contributions, my
+                Minecraft mods have over <b id="counter">50,000</b> cumulative downloads for their contribution to the
+                community. Feel
+                free to
+                contact me!</p>
+        </section>
 
-    <section id="project-section">
-        <h2>Projects</h2>
+        <section id="project-section">
+            <h2>Projects</h2>
 
-        <div id="project-grid"
-             class="grid">
+            <div id="project-grid" class="grid">
 
-            <article class="project-card">
-                <h3>Artificial Neural Network Research Project</h3>
-                <p>
-                    Developed AI models for image recognition and categorized thousands of images into 30
-                    classifications. The program measured the efficiency and accuracy of each model to find the
-                    model parameters with the highest performance. Example CIFAR10 classifications are shown below.
-                </p>
-                <img id=cifar10
-                     alt="CIFAR10 Classifications"
-                     src="assets/CIFAR10.png">
-                <small>PyTorch • MNIST • Fashion-MNIST • CIFAR-10 • Artificial Neural Networks</small>
-                <footer>
-                    <a href="https://github.com/NotchArrow/ANN-Research-Project">GitHub + Abstract & Poster</a>
-                </footer>
-            </article>
-
-            <article class="project-card">
-                <h3>Enchantments Unbound</h3>
-                <p>
-                    Created a Minecraft mod for the latest versions that removes vanilla enchantment restrictions and
-                    anvil limitations. The mod allows users to customize their game with a variety of settings and
-                    create their ideal experience.
-                </p>
-                <img id=enchantments-unbound
-                     alt="Enchantments Unbound Mod Icon"
-                     src="assets/EnchantmentsUnbound.png">
-                <small>Fabric API • Java • Minecraft Modding • Cloth Config API</small>
-                <footer>
-                    <a href="https://github.com/NotchArrow/EnchantmentsUnbound">GitHub</a>
-                    <a href="https://modrinth.com/mod/enchantments-unbound">Modrinth</a>
-                </footer>
-            </article>
-
-            <article class="project-card">
-                <h3>Arduino Logic Circuits</h3>
-                <p>
-                    Designed electrical circuits using breadboards and Arduino microcontrollers. Created a clock, a
-                    Simon-inspired sequence memory game, and a programmable piano.
-                </p>
-                <video controls
-                       playsinline
-                       id="arduino-video"
-                       poster="assets/FallenDownArduinoPianoThumbnail.jpg">
-                    <source src="assets/FallenDownArduinoPiano.mp4"
-                            type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-                <small>Microcontrollers • Breadboards • Arduino • C++</small>
-                <footer>
-                    <a href="https://github.com/NotchArrow/Arduino">GitHub</a>
-                </footer>
-            </article>
-
-            <article class="project-card">
-                <h3>TI-84 Calculator Programming</h3>
-                <p>
-                    Developed and ported games to the TI-84 Calculator using TI-Basic so that they can run natively on
-                    the device without modifications. Games include Blackjack, Minesweeper, and Wordle.
-                </p>
-                <img id=blackjack-image
-                     alt="Blackjack on the TI-84 Calculator"
-                     src="assets/Blackjack.jpg">
-                <small>TI-84 • TI-Basic • Hardware Restrictions • Game Porting</small>
-                <footer>
-                    <a href="https://github.com/NotchArrow/TI-84">GitHub</a>
-                </footer>
-            </article>
-
-            <article class="project-card">
-                <h3>Automated Sheet Music Web Scraping</h3>
-                <p>
-                    Designed a web-scraping program to automatically download and archive public domain sheet music. The
-                    script uses an automated web browser to bypass download paywalls for open-access content, and it
-                    stores the music as local PDF files.
-                </p>
-                <video controls
-                       playsinline
-                       poster="assets/MusicArchiveWebscraperThumbnail.jpg">
-                    <source src="assets/MusicArchiveWebscraper.mp4"
-                            type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-                <small>Selenium • Web Scraping • Automation • Chromedriver • Archiving</small>
-                <footer>
-                    Private repository to respect the Terms of Service of the target platform.
-                </footer>
-            </article>
-
-            <article class="project-card">
-                <h3>Turing Complete Computer Architecture</h3>
-                <p>
-                    Designed a custom instruction set architecture and a full turing-complete CPU in a sandbox. Created
-                    the design starting from NAND gates and built discrete components to combine into the full
-                    architecture.
-                </p>
-                <div class="grid"
-                     style="padding-bottom: 1rem;">
-                    <img id=turing-image
-                         alt="Turing Complete CPU Design"
-                         src="assets/FullTuring.png">
+                <article class="project-card">
+                    <h3>Artificial Neural Network Research Project</h3>
                     <p>
-                        The program counter is visible in the top left next to the ROM. The 32-bit instruction is
-                        processed through the decoder. The opcode, argument 1, argument 2, and output values are sent
-                        onto the vertical wire buses. These signals fetch arguments onto the data bus, process them in
-                        the ALU or conditional processor, and write outputs to the appropriate locations.
+                        Developed AI models for image recognition and categorized thousands of images into 30
+                        classifications. The program measured the efficiency and accuracy of each model to find the
+                        model parameters with the highest performance. Example CIFAR10 classifications are shown below.
                     </p>
+                    <img id=cifar10 alt="CIFAR10 Classifications" src="assets/CIFAR10.png">
+                    <small>PyTorch • MNIST • Fashion-MNIST • CIFAR-10 • Artificial Neural Networks</small>
+                    <footer>
+                        <a href="https://github.com/NotchArrow/ANN-Research-Project">GitHub + Abstract & Poster</a>
+                    </footer>
+                </article>
+
+                <article class="project-card">
+                    <h3>Enchantments Unbound</h3>
+                    <p>
+                        Created a Minecraft mod for the latest versions that removes vanilla enchantment restrictions
+                        and
+                        anvil limitations. The mod allows users to customize their game with a variety of settings and
+                        create their ideal experience.
+                    </p>
+                    <img id=enchantments-unbound alt="Enchantments Unbound Mod Icon"
+                        src="assets/EnchantmentsUnbound.png">
+                    <small>Fabric API • Java • Minecraft Modding • Cloth Config API</small>
+                    <footer>
+                        <a href="https://github.com/NotchArrow/EnchantmentsUnbound">GitHub</a>
+                        <a href="https://modrinth.com/mod/enchantments-unbound">Modrinth</a>
+                    </footer>
+                </article>
+
+                <article class="project-card">
+                    <h3>Arduino Logic Circuits</h3>
+                    <p>
+                        Designed electrical circuits using breadboards and Arduino microcontrollers. Created a clock, a
+                        Simon-inspired sequence memory game, and a programmable piano.
+                    </p>
+                    <video controls playsinline id="arduino-video" poster="assets/FallenDownArduinoPianoThumbnail.jpg">
+                        <source src="assets/FallenDownArduinoPiano.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <small>Microcontrollers • Breadboards • Arduino • C++</small>
+                    <footer>
+                        <a href="https://github.com/NotchArrow/Arduino">GitHub</a>
+                    </footer>
+                </article>
+
+                <article class="project-card">
+                    <h3>TI-84 Calculator Programming</h3>
+                    <p>
+                        Developed and ported games to the TI-84 Calculator using TI-Basic so that they can run natively
+                        on
+                        the device without modifications. Games include Blackjack, Minesweeper, and Wordle.
+                    </p>
+                    <img id=blackjack-image alt="Blackjack on the TI-84 Calculator" src="assets/Blackjack.jpg">
+                    <small>TI-84 • TI-Basic • Hardware Restrictions • Game Porting</small>
+                    <footer>
+                        <a href="https://github.com/NotchArrow/TI-84">GitHub</a>
+                    </footer>
+                </article>
+
+                <article class="project-card">
+                    <h3>Automated Sheet Music Web Scraping</h3>
+                    <p>
+                        Designed a web-scraping program to automatically download and archive public domain sheet music.
+                        The
+                        script uses an automated web browser to bypass download paywalls for open-access content, and it
+                        stores the music as local PDF files.
+                    </p>
+                    <video controls playsinline poster="assets/MusicArchiveWebscraperThumbnail.jpg">
+                        <source src="assets/MusicArchiveWebscraper.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <small>Selenium • Web Scraping • Automation • Chromedriver • Archiving</small>
+                    <footer>
+                        Private repository to respect the Terms of Service of the target platform.
+                    </footer>
+                </article>
+
+                <article class="project-card">
+                    <h3>Turing Complete Computer Architecture</h3>
+                    <p>
+                        Designed a custom instruction set architecture and a full turing-complete CPU in a sandbox.
+                        Created
+                        the design starting from NAND gates and built discrete components to combine into the full
+                        architecture.
+                    </p>
+                    <div class="grid" style="padding-bottom: 1rem;">
+                        <img id=turing-image alt="Turing Complete CPU Design" src="assets/FullTuring.png">
+                        <p>
+                            The program counter is visible in the top left next to the ROM. The 32-bit instruction is
+                            processed through the decoder. The opcode, argument 1, argument 2, and output values are
+                            sent
+                            onto the vertical wire buses. These signals fetch arguments onto the data bus, process them
+                            in
+                            the ALU or conditional processor, and write outputs to the appropriate locations.
+                        </p>
+                    </div>
+                    <small>Turing Complete • Custom ISA • Computer Architecture • Sandbox</small>
+                    <footer>
+                        A larger section dedicated to these designs is coming soon!
+                    </footer>
+                </article>
+
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="learning-section">
+            <h2>Curated Learning Roadmap</h2>
+            <p>
+                This section is dedicated to amazing learning resources. I personally recommend everything here to
+                anyone
+                who is interested in similar computer science topics and bridging the gap between low-level and
+                high-level
+                abstraction.
+            </p>
+            <div id="resources-grid">
+                <div>
+                    <a href="https://www.3blue1brown.com/?topic=neural-networks">3Blue1Brown</a>
+                    <p><small>
+                            Also known as Grant Sanderson, 3Blue1Brown is an educator with videos covering important
+                            computer
+                            science topics, such as Artificial Neural Networks and important mathematical concepts.
+                        </small></p>
                 </div>
-                <small>Turing Complete • Custom ISA • Computer Architecture • Sandbox</small>
-                <footer>
-                    A larger section dedicated to these designs is coming soon!
-                </footer>
-            </article>
+                <div>
+                    <a href="https://eater.net/8bit">Ben Eater</a>
+                    <p><small>
+                            An educational YouTube lecturer with exceptional videos on 8 bit circuits, microcontrollers,
+                            and
+                            software interfacing. The
+                            <a href="https://docs.arduino.cc/">Arduino Docs</a>
+                            are also very useful for creating projects.
+                        </small></p>
+                </div>
+                <div>
+                    <a href="https://pages.hmc.edu/harris/ddca/">[$] Digital Design & Computer Architecture</a>
+                    <p><small>
+                            An undergraduate level textbook covering computer architecture from basic transistors and
+                            logic all
+                            the way to full CPU designs.
+                        </small></p>
+                </div>
+                <div>
+                    <a href="https://fabricmc.net/develop/">Fabric API Documentation</a>
+                    <p><small>
+                            Documentation for the Fabric API for Minecraft modding. The community groups often help with
+                            general
+                            programming or Java.
+                        </small></p>
+                </div>
+                <div>
+                    <a href="https://docs.pytorch.org/docs/stable/index.html">PyTorch Documentation</a>
+                    <p><small>
+                            User guides and documentation for PyTorch and machine learning. The guides are a great
+                            transition
+                            point for transforming AI theory and mathematical concepts into code.
+                        </small></p>
+                </div>
+                <div>
+                    <a href="https://think-like-a-git.net/">Think Like a Git</a>
+                    <p><small>
+                            A relatively short read that provides background information about Git. It explains how and
+                            why the
+                            Version Control System has certain design choices, rather than giving a list of commands to
+                            memorize.
+                        </small></p>
+                </div>
+                <div>
+                    <a href="https://store.steampowered.com/app/1444480/Turing_Complete/">[$] Turing Complete</a>
+                    <p><small>
+                            An educational sandbox game that provides level progression through computer architecture.
+                            The
+                            levels of abstraction from NAND gates to Assembly language and CPU optimization are well
+                            explained.
+                            Free alternative sandbox:
+                            <a href="https://sebastian.itch.io/digital-logic-sim">Sebastian Lague Digital Logic
+                                Simulator</a>
+                        </small></p>
+                </div>
+            </div>
+        </section>
 
-        </div>
-    </section>
+        <section id="hobbies-section">
+            <h2>Hardware & Prototyping</h2>
+            <div class="grid">
+                <div id="inventor-div">
+                    <h6>Mechanical Design</h6>
+                    <p><small>NOCTI Certified in CAD. Currently using Autodesk Inventor for modeling and 3D printing
+                            custom
+                            components.</small></p>
+                    <figure>
+                        <img class="rounded" alt="Arduino Case" src="assets/ArduinoCase.jpg">
+                        <img class="rounded" alt="Arduino Case Model" src="assets/ArduinoCaseModel.png">
+                        <img class="rounded" alt="Arduino Case Back" src="assets/ArduinoCaseBack.jpg">
+                        <figcaption>
+                            <small>Custom Arduino case with an Omori logo modeled into the back.</small>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div id="raspberry-div">
+                    <h6>Raspberry Pi & Linux</h6>
+                    <p><small>Some experience with Raspberry Pi systems and Linux-based SSH environments for server
+                            hosting.</small></p>
+                    <figure>
+                        <img class="rounded" alt="Raspberry Pi SSH" src="assets/RaspberryPi.png">
+                        <figcaption>
+                            <small>Neofetch system information through Raspberry Pi SSH.</small>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div id="laptop-div">
+                    <h6>Hardware Engineering</h6>
+                    <p><small>Working with laptops and desktop PCs to build new setups, perform repairs and upgrades,
+                            and
+                            repurpose discrete components for electrical projects.</small></p>
+                    <figure>
+                        <img class="rounded" alt="Laptop Repasting" src="assets/LaptopRepasting.jpg">
+                        <figcaption>
+                            <small>Dell Laptop cleaned and prepared for new thermal paste on the CPU and GPU.</small>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
 
-    <hr>
+    </main>
 
-    <section id="learning-section">
-        <h2>Curated Learning Roadmap</h2>
-        <p>
-            This section is dedicated to amazing learning resources. I personally recommend everything here to anyone
-            who is interested in similar computer science topics and bridging the gap between low-level and high-level
-            abstraction.
-        </p>
-        <div id="resources-grid">
-            <div>
-                <a href="https://www.3blue1brown.com/?topic=neural-networks">3Blue1Brown</a>
-                <p><small>
-                    Also known as Grant Sanderson, 3Blue1Brown is an educator with videos covering important computer
-                    science topics, such as Artificial Neural Networks and important mathematical concepts.
-                </small></p>
-            </div>
-            <div>
-                <a href="https://eater.net/8bit">Ben Eater</a>
-                <p><small>
-                    An educational YouTube lecturer with exceptional videos on 8 bit circuits, microcontrollers, and
-                    software interfacing. The
-                    <a href="https://docs.arduino.cc/">Arduino Docs</a>
-                    are also very useful for creating projects.
-                </small></p>
-            </div>
-            <div>
-                <a href="https://pages.hmc.edu/harris/ddca/">[$] Digital Design & Computer Architecture</a>
-                <p><small>
-                    An undergraduate level textbook covering computer architecture from basic transistors and logic all
-                    the way to full CPU designs.
-                </small></p>
-            </div>
-            <div>
-                <a href="https://fabricmc.net/develop/">Fabric API Documentation</a>
-                <p><small>
-                    Documentation for the Fabric API for Minecraft modding. The community groups often help with general
-                    programming or Java.
-                </small></p>
-            </div>
-            <div>
-                <a href="https://docs.pytorch.org/docs/stable/index.html">PyTorch Documentation</a>
-                <p><small>
-                    User guides and documentation for PyTorch and machine learning. The guides are a great transition
-                    point for transforming AI theory and mathematical concepts into code.
-                </small></p>
-            </div>
-            <div>
-                <a href="https://think-like-a-git.net/">Think Like a Git</a>
-                <p><small>
-                    A relatively short read that provides background information about Git. It explains how and why the
-                    Version Control System has certain design choices, rather than giving a list of commands to
-                    memorize.
-                </small></p>
-            </div>
-            <div>
-                <a href="https://store.steampowered.com/app/1444480/Turing_Complete/">[$] Turing Complete</a>
-                <p><small>
-                    An educational sandbox game that provides level progression through computer architecture. The
-                    levels of abstraction from NAND gates to Assembly language and CPU optimization are well explained.
-                    Free alternative sandbox:
-                    <a href="https://sebastian.itch.io/digital-logic-sim">Sebastian Lague Digital Logic Simulator</a>
-                </small></p>
-            </div>
-        </div>
-    </section>
-
-    <section id="hobbies-section">
-        <h2>Hardware & Prototyping</h2>
+    <footer class="container" id="contact-section">
+        <hr />
         <div class="grid">
-            <div id="inventor-div">
-                <h6>Mechanical Design</h6>
-                <p><small>NOCTI Certified in CAD. Currently using Autodesk Inventor for modeling and 3D printing custom
-                    components.</small></p>
-                <figure>
-                    <img class="rounded"
-                         alt="Arduino Case"
-                         src="assets/ArduinoCase.jpg">
-                    <img class="rounded"
-                         alt="Arduino Case Model"
-                         src="assets/ArduinoCaseModel.png">
-                    <img class="rounded"
-                         alt="Arduino Case Back"
-                         src="assets/ArduinoCaseBack.jpg">
-                    <figcaption>
-                        <small>Custom Arduino case with an Omori logo modeled into the back.</small>
-                    </figcaption>
-                </figure>
+            <div>
+                <h6>Site Navigation</h6>
+                <ul>
+                    <li><a href="#top">Top</a></li>
+                    <li><a href="#about-section">About</a></li>
+                    <li><a href="#project-section">Projects</a></li>
+                    <li><a href="#learning-section">Roadmap</a></li>
+                    <li><a href="#hobbies-section">Hardware</a></li>
+                </ul>
             </div>
-            <div id="raspberry-div">
-                <h6>Raspberry Pi & Linux</h6>
-                <p><small>Some experience with Raspberry Pi systems and Linux-based SSH environments for server
-                    hosting.</small></p>
-                <figure>
-                    <img class="rounded"
-                         alt="Raspberry Pi SSH"
-                         src="assets/RaspberryPi.png">
-                    <figcaption>
-                        <small>Neofetch system information through Raspberry Pi SSH.</small>
-                    </figcaption>
-                </figure>
-            </div>
-            <div id="laptop-div">
-                <h6>Hardware Engineering</h6>
-                <p><small>Working with laptops and desktop PCs to build new setups, perform repairs and upgrades, and
-                    repurpose discrete components for electrical projects.</small></p>
-                <figure>
-                    <img class="rounded"
-                         alt="Laptop Repasting"
-                         src="assets/LaptopRepasting.jpg">
-                    <figcaption>
-                        <small>Dell Laptop cleaned and prepared for new thermal paste on the CPU and GPU.</small>
-                    </figcaption>
-                </figure>
+            <div>
+                <h6>Connect</h6>
+                <ul class="no-bullets">
+                    <li><a href="https://discord.gg/ZCaGkZeb4C">Discord</a></li>
+                    <li><a href="mailto:NotchArrow@outlook.com">NotchArrow@outlook.com</a></li>
+                    <li><a href="https://github.com/NotchArrow">GitHub</a></li>
+                    <li><a href="https://modrinth.com/user/NotchArrow/">Modrinth</a></li>
+                </ul>
             </div>
         </div>
-    </section>
 
-</main>
+        <p id="footer-mark">
+            <small>Built with <strong>Pico.css</strong> • Hosted on <strong>GitHub Pages</strong></small>
+        </p>
+    </footer>
 
-<footer class="container"
-        id="contact-section">
-    <hr/>
-    <div class="grid">
-        <div>
-            <p><strong>NotchArrow</strong><br/>
-                <small>Interest in my work? Let's connect or collaborate on something new.</small></p>
-        </div>
-        <div>
-            <h6>Site Navigation</h6>
-            <ul>
-                <li><a href="#top">Top</a></li>
-                <li><a href="#about-section">About</a></li>
-                <li><a href="#project-section">Projects</a></li>
-                <li><a href="#learning-section">Roadmap</a></li>
-                <li><a href="#hobbies-section">Hardware</a></li>
-            </ul>
-        </div>
-        <div>
-            <h6>Connect</h6>
-            <ul class="no-bullets">
-                <li><a href="https://discord.gg/ZCaGkZeb4C">Discord</a></li>
-                <li><a href="mailto:NotchArrow@outlook.com">NotchArrow@outlook.com</a></li>
-                <li><a href="https://github.com/NotchArrow">GitHub</a></li>
-                <li><a href="https://modrinth.com/user/NotchArrow/">Modrinth</a></li>
-            </ul>
-        </div>
-    </div>
-
-    <p id="footer-mark">
-        <small>Built with <strong>Pico.css</strong> • Hosted on <strong>GitHub Pages</strong></small>
-    </p>
-</footer>
-
-<script src="index.js"></script>
+    <script src="index.js"></script>
 
 </body>
+
 </html>
